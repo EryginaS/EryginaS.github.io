@@ -214,7 +214,7 @@ $(function () {
                 isPhone = true;
             }
         }
-        if (elem.name === "specialist") {
+        if (elem.name === "comment") {
             if (elem.value == "") {
                 elem.nextElementSibling.textContent = "Выберите специализацию";
                 isComment = false;
