@@ -176,7 +176,7 @@ $(function () {
     let isName = false;
     let isSecondName = false;
     let isPhone = false;
-    let isSpecialist = false;
+    let isComment= false;
     let isDate = false;
 
     const submit = () => {
@@ -217,10 +217,10 @@ $(function () {
         if (elem.name === "specialist") {
             if (elem.value == "") {
                 elem.nextElementSibling.textContent = "Выберите специализацию";
-                isSpecialist = false;
+                isComment = false;
             } else {
                 elem.nextElementSibling.textContent = "";
-                isSpecialist = true;
+                isComment= true;
             }
         }
         if (elem.name === "date") {
@@ -255,7 +255,7 @@ $(function () {
                 }
             }
         }
-        if (isSubmit && isName && isSecondName && isPhone && isDate && isSpecialist) {
+        if (isSubmit && isName && isSecondName && isPhone && isDate && isComment) {
             submit();
             form.reset();
         } else {
