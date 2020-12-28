@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EMILY CLINIC</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="header__logo">
+            <img src="icons/logo.svg" alt="EMILY CLINIC">
+        </a>
+        <nav class="menu">
+            <button class="menu__burger">
+                <span class="menu__burger-line"></span>
+            </button>
+            <ul class="menu__list">
+                <li class="menu__item first">
+                    <a href="#services" class="menu__link">усуги и цены</a>
+                </li>
+                <li class="menu__item second">
+                    <a href="#specialists" class="menu__link">наши специалисты</a>
+                </li>
+                <li class="menu__item third">
+                    <a href="#about" class="menu__link">о клинике</a>
+                </li>
+                <li class="menu__item four">
+                    <a href="#footer" class="menu__link">контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="tel:88617790790" class="header__phone-link">8 (8617) 790-790</a>
+    </header>
+
+    <div class="mobile-menu">
+        <a href="#" class="header__logo">
+            <img src="icons/logo.svg" alt="EMILY CLINIC">
+        </a>
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+                <a href="#services" class="mobile-menu__link">усуги и цены</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#specialists" class="mobile-menu__link">наши специалисты</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#about" class="mobile-menu__link">о клинике</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#footer" class="mobile-menu__link">контакты</a>
+            </li>
+        </ul>
+        <a href="#reg" class="mobile-menu__btn btn">
+            <p>Записаться на прием</p>
+        </a>
+        <div class="mobile-menu__contacts">
+            <div class="mobile-menu__social">
+                <a class="mobile-menu__social-icon" href="#">
+                    <img src="icons/social/mobile-vk.svg" alt="">
+                </a>
+                <a class="mobile-menu__social-icon" href="#">
+                    <img src="icons/social/mobile-instagram.svg" alt="">
+                </a>
+            </div>
+            <ul class="mobile-menu__contacts-link">
+                <li class="mobile-menu__contacts-phone">
+                    <a href="tel:88617790790" class="footer__contacts-phonelink">8 (8617) 790-790</a>
+                </li>
+                <li class="mobile-menu__contacts-callback">
+                    <a href="#callback" class="footer__contacts-callbacklink">Заказать звонок</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-menu__close">
+            <img src="icons/close.svg" alt="">
+        </div>
+    </div>
+
+    
+        <section id="top" class="section-top">
+            <div class="section-top__inner">
+                <h2 class="section-top__suptitle">Центр  стоматологии  и имплантации </h2>
+                <h1 class="section-top__title">Emily  Clinic</h1>
+                <div class="section-top__location">
+                    <p class="section-top__location-address">Новороссийск, <span>пр-т Дзержинского,194</span></p>
+                </div>
+                <div class="section-top__btn">
+                    <a href="#reg" class="section-top__btn-reg btn">
+                        <p>Записаться на прием</p>
+                    </a>
+                    <a href="#callback" class="section-top__btn-callback">Заказать звонок</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h3 class="section-title">Услуги</h3>
+            <div class="services__inner">
+                <a class="services__inner-item services__inner-item_one " href="#section-price_one">
+                    
+                    <div class="services__icon">
+                        <img src="icons/services/service-1.svg" alt="">
+                    </div>
+                    <div class="services__name">
+                        <p class="services__name-text services__name-text_1">Отбеливание</p>
+                    </div>
+                    <p class="services__more-link">подробнее</p>    
+                  
+                </a>
+                <a class="services__inner-item" href="#section-price_two">
+                    <div class="services__icon">
+                        <img src="icons/services/service-2.svg" alt="">
+                    </div>
+                    <div class="services__name">
+                        <p class="services__name-text">Гигиена и профилактика</p>
+                    </div>
+                    <p class="services__more-link">подробнее</p>
+                </a>
+                <a class="services__inner-item" href="#section-price_three">
+                    <div class="services__icon">
+                        <img src="icons/services/service-3.svg" alt="">
+                    </div>
+                    <div class="services__name">
+                        <p class="services__name-text">Терапевтическая стоматология</p>
+                    </div>
+                    <p class="services__more-link">подробнее</p>
+                </a>
+                <a class="services__inner-item" href="#section-price_four">
+                    <div class="services__icon">
+                        <img src="icons/services/service-4.svg" alt="">
+                    </div>
+                    <div class="services__name">
+                        <p class="services__name-text">Хирургическая стоматология</p>
+                    </div>
+                    <p class="services__more-link">подробнее</p>
+                </a>
+                <a class="services__inner-item" href="#section-price_five">
+                    <div class="services__icon">
+                        <img src="icons/services/service-5.svg" alt="">
+                    </div>
+                    <div class="services__name">
+                        <p class="services__name-text">Имплантация</p>
+                    </div>
+                    <p class="services__more-link">подробнее</p>
+                </a>
+                <a class="services__inner-item" href="#section-price_six">
+                    <div class="services__icon">
+                        <img src="icons/services/service-6.svg" alt="">
+                    </div>
+                    <div class="services__name">
+                        <p class="services__name-text">Детская стоматология</p>
+                    </div>
+                    <p class="services__more-link">подробнее</p>
+                </a>
+                <a class="services__inner-item" href="#section-price_seven">
+                    <div class="services__icon">
+                        <img src="icons/services/service-7.svg" alt="">
+                    </div>
+                    <div class="services__name">
+                        <p class="services__name-text">Ортопедическая стоматология</p>
+                    </div>
+                    <p class="services__more-link">подробнее</p>
+                </a>
+                <a class="services__inner-item" href="#section-price_eight">
+                    <div class="services__icon">
+                        <img src="icons/services/service-8.svg" alt="">
+                    </div>
+                    <div class="services__name">
+                        <p class="services__name-text">Ортодонтическая стоматология</p>
+                    </div>
+                    <p class="services__more-link">подробнее</p>
+                </a>
+            </div>
+    </section>
+    <section class="section-price">
+        <div class="section-price__inner">
+            <h3 class="section-title">Стоимость услуг</h3>
+            <div class="section-price__item" id="section-price_one">
+                <div class="section-price__drop">
+                    <h4 class="section-price__drop-title">Отбеливание</h4>
+                    <a class="section-price__drop-img" href="#">
+                        <img src="icons/drop-arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section-price__drop-box section-price__drop-box--hidden">
+                    <ul class="section-price__drop-list">
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Внутрикоронковое отбеливание для девитальных
+                                измененных в
+                                цвете
+                                зубов (1 зуб)</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Отбеливание зубов препаратом Опалесценс (2
+                                челюсти)</span>
+                            <span class="section-price__drop-price">10 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Профессиональное отбеливание антеной (2
+                                челюсти)</span>
+                            <span class="section-price__drop-price">20 000 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-price__item" id="section-price_two">
+                <div class="section-price__drop">
+                    <h4 class="section-price__drop-title">Гигиена
+                        и профилактика</h4>
+                    <a class="section-price__drop-img" href="#">
+                        <img src="icons/drop-arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section-price__drop-box section-price__drop-box--hidden">
+                    <ul class="section-price__drop-list">
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Аппликации лекарственного препарата на слизистую
+                                оболочку полости рта</span>
+                            <span class="section-price__drop-price">200 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Глубокое фторирование эмали зуба (полость
+                                рта)</span>
+                            <span class="section-price__drop-price">2 000,00 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Покрытие фторсодержащими препаратами (1
+                                зуб)</span>
+                            <span class="section-price__drop-price">50 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Гигиена условно - съемного протеза</span>
+                            <span class="section-price__drop-price">3 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Герметизация фиссур (1 зуб)</span>
+                            <span class="section-price__drop-price">1 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Комплексная гигиена полости рта</span>
+                            <span class="section-price__drop-price">4 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие зубных отложений ультразвуком (1
+                                зуб)</span>
+                            <span class="section-price__drop-price">130 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие зубных отложений Air-Flow + ультразвук (1
+                                зуб)</span>
+                            <span class="section-price__drop-price">150 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие зубных отложений, полировка (1 зуб)</span>
+                            <span class="section-price__drop-price">80 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-price__item" id="section-price_three">
+                <div class="section-price__drop">
+                    <h4 class="section-price__drop-title">Терапевтическая
+                        стоматология</h4>
+                    <a class="section-price__drop-img" href="#">
+                        <img src="icons/drop-arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section-price__drop-box section-price__drop-box--hidden">
+                    <ul class="section-price__drop-list">
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Лечение кариеса с использованием композита
+                                светового
+                                отвержения "Gradia" (1 поверхность)</span>
+                            <span class="section-price__drop-price">2 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Лечение кариеса с использованием композита
+                                светового
+                                отвержения "Gradia" (2 поверхности)</span>
+                            <span class="section-price__drop-price">2 800 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Лечение кариеса с использованием композита
+                                светового
+                                отвержения "Gradia" (3 поверхности)</span>
+                            <span class="section-price__drop-price">3 100 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Реставрация жевательной группы зубов при
+                                восстанолении
+                                ключом</span>
+                            <span class="section-price__drop-price">3 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Реставрация фронтальной группы зубов (1
+                                зуб)</span>
+                            <span class="section-price__drop-price">4 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Восстановление коронковой части зуба под коронку
+                                с
+                                помощью стекловолоконного штифта</span>
+                            <span class="section-price__drop-price">3 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Востановление стенки зуба жидкотекучим
+                                материалом</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Жидкотекучий материал на дно полости</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Закрытие перфорации корня</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Избирательное пришлифовывание</span>
+                            <span class="section-price__drop-price">200 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Извлечение анкерного штифта ранее пломбированого
+                                зуба</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Врменное пломбирование лекарственными препаратами
+                                корневого канала (Кальсепт)</span>
+                            <span class="section-price__drop-price">200 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Наложение лечебной прокладки (при глубоком
+                                кариесе)</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коагуляция десневого сосочка</span>
+                            <span class="section-price__drop-price">200 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Введение крезодента в корневой канал</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Механическая и медикоментозная обработка 1-го
+                                корневого канала</span>
+                            <span class="section-price__drop-price">700 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Нить ретракционная</span>
+                            <span class="section-price__drop-price">100 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Оказание помощи при острой боли (депульпин под
+                                временную пломбу)</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Временная пломба (Парасепт)</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Временная пломба (Дентин паста)</span>
+                            <span class="section-price__drop-price">100 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Пломбировка 1-го корневого канала</span>
+                            <span class="section-price__drop-price">800 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Полировка Detartrin (1 зуб)</span>
+                            <span class="section-price__drop-price">100 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Проклада изолирующая стеклоиономерным
+                                цементом</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Прокладка изолирующая "Ионосит"</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Прокладочный Цемент "МТА" на устъе к/к
+                                (триоксидент,
+                                рудент)</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Пульпосептин</span>
+                            <span class="section-price__drop-price">200 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Распломбировка 1-го корневого канала,
+                                механическая и
+                                медикоментозная обработка</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие временной пломбы/дентин пасты</span>
+                            <span class="section-price__drop-price">100 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие несостоятельной пломбы</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Установка скайса</span>
+                            <span class="section-price__drop-price">1 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Фиксация внутриканального анкерного штифта</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Введение в канал Эдеталь-геля/RC-prep</span>
+                            <span class="section-price__drop-price">100 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-price__item" id="section-price_four">
+                <div class="section-price__drop">
+                    <h4 class="section-price__drop-title">Хирургическая
+                        стоматология</h4>
+                    <a class="section-price__drop-img" href="#">
+                        <img src="icons/drop-arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section-price__drop-box section-price__drop-box--hidden">
+                    <ul class="section-price__drop-list">
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Наложение лекарственного препарата
+                                "Альвожиль"</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Наложение лекарственного препарата
+                                "Альвостаз"</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Закрытый синус лифтинг</span>
+                            <span class="section-price__drop-price">15 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Иссечение капюшона при перикоронарите</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Костные гранулы 0,5 гр</span>
+                            <span class="section-price__drop-price">10 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Костные гранулы Bio-Oss 0,5 гр</span>
+                            <span class="section-price__drop-price">17 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Костные гранулы Bio-Oss 1 гр</span>
+                            <span class="section-price__drop-price">32 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Мембрана</span>
+                            <span class="section-price__drop-price">6 000₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Мембрана коллагеновая большая</span>
+                            <span class="section-price__drop-price">7 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Мембрана коллагеновая маленькая</span>
+                            <span class="section-price__drop-price">4 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Мембрана перезорбируемая с титановым
+                                усилением</span>
+                            <span class="section-price__drop-price">9 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Наложение швов</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие швов (другое ЛПУ)</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">ОстеоБиол гранулы из смеси Apatos 0,5 гр</span>
+                            <span class="section-price__drop-price">12 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">ОстеоБиол гранулы из смеси Apatos 1 гр</span>
+                            <span class="section-price__drop-price">21 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Открытый синус лифтинг (без стоимости
+                                остеопластического материала</span>
+                            <span class="section-price__drop-price">30 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Пластика уздечки</span>
+                            <span class="section-price__drop-price">2 600 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Вскрытие абцесса в полости рта с установкой
+                                дренажа</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Расщепление альвеолярного гребня</span>
+                            <span class="section-price__drop-price">5 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Резекция верхушки корня</span>
+                            <span class="section-price__drop-price">5 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Резорбируемая мембрана</span>
+                            <span class="section-price__drop-price">15 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление зуба, простое</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление зуба под имплантат</span>
+                            <span class="section-price__drop-price">3 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление имплантата простое</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление имплантата сложное</span>
+                            <span class="section-price__drop-price">4 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление молочного зуба</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление подвижного зуба</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление ретинированного зуба</span>
+                            <span class="section-price__drop-price">4 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление зуба, сложное</span>
+                            <span class="section-price__drop-price">4 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление стенки зуба</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Установка (1го) имплантата OSSTEM</span>
+                            <span class="section-price__drop-price">22 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Установка формирователя десны</span>
+                            <span class="section-price__drop-price">3 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Хирургическая пластика альвеолярного
+                                отростка</span>
+                            <span class="section-price__drop-price">2 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Хирургическое лечение альвеолита</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Цистэкомия (удаление ретенционной кисты)</span>
+                            <span class="section-price__drop-price">3 000 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-price__item" id="section-price_five">
+                <div class="section-price__drop">
+                    <h4 class="section-price__drop-title">Имплантация</h4>
+                    <a class="section-price__drop-img" href="#">
+                        <img src="icons/drop-arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section-price__drop-box section-price__drop-box--hidden">
+                    <ul class="section-price__drop-list">
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Балка первичная при протезировании полным съемным
+                                пластинчатым протезом на имплантах</span>
+                            <span class="section-price__drop-price">80 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Временное протезирование зубов с опорой на
+                                имплант по
+                                методике ALL-on-4</span>
+                            <span class="section-price__drop-price">45 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка безметалловая на импланте</span>
+                            <span class="section-price__drop-price">35 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка металлокерамическая на импланте</span>
+                            <span class="section-price__drop-price">25 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Протезирование зубов на имплантах по методике
+                                ALL-on-4 с гарнитурными зубами</span>
+                            <span class="section-price__drop-price">140 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Протезирование зубов с опрой на имплант по
+                                методике
+                                ALL-on-4 с керамическими зубами</span>
+                            <span class="section-price__drop-price">265 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Протезирование зубов с опрой на импланты (5-ть и
+                                более), безметалловая конструкция</span>
+                            <span class="section-price__drop-price">290 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Протезирование зубов с опрой на импланты (5-ть и
+                                более), металлокерамическая конструкция</span>
+                            <span class="section-price__drop-price">270 000 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-price__item" id="section-price_six">
+                <div class="section-price__drop">
+                    <h4 class="section-price__drop-title">Детская
+                        стоматология</h4>
+                    <a class="section-price__drop-img" href="#">
+                        <img src="icons/drop-arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section-price__drop-box section-price__drop-box--hidden">
+                    <ul class="section-price__drop-list">
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Реставрация зуба с помощью жидкотекучего
+                                материала
+                                X-flow</span>
+                            <span class="section-price__drop-price">1 600 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Металлическая коронка на молочный зуб</span>
+                            <span class="section-price__drop-price">2 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Механическая и медикаментозная обработка
+                                корневого
+                                канала</span>
+                            <span class="section-price__drop-price">300 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Лечение кариеса молочного зуба (пломба
+                                "Фуджи")</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Лечение кариеса молочного зуба (помба "Цемион —
+                                колор")</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Лечение кариеса молочного зуба (пломба
+                                фотополимерная)</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Пломбирование корневых каналов цинк - эвгеноловой
+                                пастой</span>
+                            <span class="section-price__drop-price">400 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Профессиональная гигиена полости рта (с 2х - до
+                                12
+                                лет)</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Применение резорцин формалиновой жидкости</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Применение резорцин формалиновой пасты</span>
+                            <span class="section-price__drop-price">600 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление молочного зуба</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Удаление молочного подвижного зуба</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-price__item" id="section-price_seven">
+                <div class="section-price__drop">
+                    <h4 class="section-price__drop-title">Ортопедическая
+                        стоматология</h4>
+                    <a class="section-price__drop-img" href="#">
+                        <img src="icons/drop-arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section-price__drop-box section-price__drop-box--hidden">
+                    <ul class="section-price__drop-list">
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Винир керамический</span>
+                            <span class="section-price__drop-price">16 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Вкладка культевая</span>
+                            <span class="section-price__drop-price">3 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Вкладка культевая (разборная)</span>
+                            <span class="section-price__drop-price">4 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Вкладка/накладка керамическая E-max или диоксид
+                                циркония</span>
+                            <span class="section-price__drop-price">15 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Диагностика и исследование на моделях (WAX-up)
+                                для
+                                будующего прогноза ортопедической <br> конструкции, в плане эстетики и
+                                функциональности
+                                (1ед)</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Исследование на диагностических моделях
+                                челюстей</span>
+                            <span class="section-price__drop-price">1 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка безметалловая (диоксид циркония; ZrO2;
+                                Press;
+                                e.max)</span>
+                            <span class="section-price__drop-price">15 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка временная (непрямой метод,
+                                лаборатория)</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка временная (прямой метод)</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка металлокерамическая</span>
+                            <span class="section-price__drop-price">7 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка металлокерамическая (повышенная
+                                эстетика)</span>
+                            <span class="section-price__drop-price">10 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка цельнолитая (металлическая)</span>
+                            <span class="section-price__drop-price">4 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Коронка цельнолитая (металлическая) с
+                                напылением</span>
+                            <span class="section-price__drop-price">5 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие оттиска (слепок) альгинатной массой (1
+                                челюсть)</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие оттиска (слепок) силиконовой массой (1
+                                челюсть)</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие цельнолитой и металлокерамической
+                                коронки</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие штампованной коронки</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Фиксация на временный цемент (1 единица)</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Цементирование 1-ой коронки, изготовленной в
+                                другом
+                                лечебном учреждении</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-price__item" id="section-price_eight">
+                <div class="section-price__drop">
+                    <h4 class="section-price__drop-title">Ортодонтическая
+                        стоматология</h4>
+                    <a class="section-price__drop-img" href="#">
+                        <img src="icons/drop-arrow.svg" alt="">
+                    </a>
+                </div>
+                <div class="section-price__drop-box section-price__drop-box--hidden">
+                    <ul class="section-price__drop-list">
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Активация брекет-системы, 1н зубной ряд</span>
+                            <span class="section-price__drop-price">800 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Активация брекет-системы, 2а зубных ряда</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Изготовление съемного пластиночного аппарата на
+                                1у
+                                челюсть</span>
+                            <span class="section-price__drop-price">6 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Каппа ретенционная</span>
+                            <span class="section-price__drop-price">3 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Керамическая брекет-система, 1н зубной ряд</span>
+                            <span class="section-price__drop-price">12 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Консультация врача ортодонта</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Контрольное наблюдение + коррекия аппарата</span>
+                            <span class="section-price__drop-price">500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Металлическая брекет-система, 1н зубной
+                                ряд</span>
+                            <span class="section-price__drop-price">8 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Припасовка съемного пластиночного аппарата</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Самолигирующая брекет-система, 1н зубной
+                                ряд</span>
+                            <span class="section-price__drop-price">23 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Самолигирующая керамическая брекет-система, 1н
+                                зубной
+                                ряд</span>
+                            <span class="section-price__drop-price">26 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Смена дуги в брекет-системе,1н зубной ряд</span>
+                            <span class="section-price__drop-price">2 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие брекет-системы, 1н зубной ряд</span>
+                            <span class="section-price__drop-price">1 400 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Снятие слепка с 1ой челюсти, отлив
+                                диагностической
+                                модели</span>
+                            <span class="section-price__drop-price">1 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Составление плана лечения, диагностиа</span>
+                            <span class="section-price__drop-price">1 500 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Установка ретейнера после снятия брекет-системы,
+                                1н
+                                зубной
+                                ряд</span>
+                            <span class="section-price__drop-price">3 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Фиксация брекет-системы на 1н зубной ряд</span>
+                            <span class="section-price__drop-price">14 000 ₽</span>
+                        </li>
+                        <li class="section-price__drop-item">
+                            <span class="section-price__drop-name">Фиксация дуги ретейнера</span>
+                            <span class="section-price__drop-price">2 000 ₽</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    
+    <section id="specialists" class="specialists">
+        <h3 class="section-title">Наши специалисты</h3>
+        <div class="specialists__inner">
+            <div class="specialists__inner-item">
+                <div class="specialists__img">
+                    <img src="img/doctors/doctor-1.png" alt="">
+                </div>
+                <div class="specialists__descr">
+                    <div class="specialists__descr-name">
+                        <p>Махмудов Мевлан Мирванович</p>
+                    </div>
+                    <p class="specialists__descr-text">
+                        Специалист с 6 летним стажем работы. <br>
+                        Cтоматолог-имплантолог,
+                        стоматолог-хирург.
+                    </p>
+                </div>
+            </div>
+            <div class="specialists__inner-item">
+                <div class="specialists__img">
+                    <img src="img/doctors/doctor-2.png" alt="">
+                </div>
+                <div class="specialists__descr">
+                    <div class="specialists__descr-name">
+                        <p>Ибрагимов Эмиль Нариманович</p>
+                    </div>
+                    <p class="specialists__descr-text">
+                        Высококвалифицированый специалист.
+                        Стоматолог-хирург, <br>
+                        стоматолог-ортопед, <br>
+                        доктор с 8 летним стажем.
+                    </p>
+                </div>
+            </div>
+            <div class="specialists__inner-item">
+                <div class="specialists__img">
+                    <img src="img/doctors/doctor-3.png" alt="">
+                </div>
+                <div class="specialists__descr">
+                    <div class="specialists__descr-name">
+                        <p>Ибрагимова Лилия Наримановна</p>
+                    </div>
+                    <p class="specialists__descr-text">
+                        Доктор 1 категории с 7 летним стажем.
+                        Стоматолог, детский стоматолог.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="about" class="about">
+            <div class="about__inner">
+                <div class="about__img">
+                    <img src="img/about-bg.png" alt="">
+                </div>
+                <div class="about__descr">
+                    <h4 class="about__descr-title">О клинике</h4>
+                    <p class="about__descr-text">
+                        Центр стоматологии и имплантации "Emily Clinic"-это верное решение для
+                        получение великолепного результата.
+                        У нас Вы забудите  о зубной боли
+                        и сможете окунуться в царящую  атмосферу спокойствия и профессионализма.
+                        В нашей команде работают самые лучшие доктора-стаматологи, имеющие стаж
+                        в  медицинской сфере 6 и более лет. Каждый член нашей команды постоянно совершентсвует свои
+                        знания и
+                        навыки путем прохождения всевозможных учебных курсов и семинаров.
+                        Нам Вы можете доверять !
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="reviews__header">
+                <h3 class="section-title">Отзывы</h3>
+            </div>
+            <div class="reviews__slider">
+                <div class="reviews__slider-item">
+                    <p class="reviews__person">Глеб Рудь</p>
+                    <p class="reviews__text">Здравствуйте!!!!Хотелось бы поблагодарить доктора Лилию и весь персонал
+                        данной
+                        клиники,за чистоту,за комфортные условия,за очень внимательное и тёплое отношение ко мне,читая
+                        негативные отзывы нахожусь в недоумении,такое складывается впечатление,что у человека было
+                        плохое
+                        настроение,делала гигиену полости рта,очееень довольна всем и самим процессом и
+                        результатом!!!Рекомендую всем за качественной услугой приходить в данную клинику!Всем добра🤗✌
+                    </p>
+                </div>
+                <div class="reviews__slider-item">
+                    <p class="reviews__person">Валерия Зудилина</p>
+                    <p class="reviews__text">Была на лечении и чистке полости рта , Лилия очень внимательный , аккуратный врач. И самое важное для меня , что делает качественно и быстро
+                    </p>
+                </div>
+                <div class="reviews__slider-item">
+                    <p class="reviews__person">​Юля Черникова</p>
+                    <p class="reviews__text">Современная стоматология, опытные врачи которые лишнего не посоветуют, всё грамотно и по факту. Огромное спасибо за прекрасную улыбку. Теперь только к вам 🤗🌺
+                    </p>
+                </div>
+                <div class="reviews__slider-item">
+                    <p class="reviews__person">​Люба Томская</p>
+                    <p class="reviews__text">Очень уютная обстановка, врачи отличные. Эмиля Наримановича знаем уже 2 года. Врач просто от бога🕊️быстро нашёл общий язык с ребёнком,теперь каждый год к нему на осмотр и лечить тоже только к нему. Ребёнок теперь не боится ставить пломбы, нам всего 5 лет. Хочу выразить слова благодарности🙏пусть ваша клиника процветает, удачи вам в ваших начинаниях✅
+                    </p>
+                </div>
+                
+            </div>
+            <div class="arrows"></div>
+        </section>
+    </div>
+    <section id="reg" class="registration">
+        <div class="registration__inner">
+            <h5 class="section-title">Запись на прием</h5>
+            <form class="registration__form" id="registration__forms">
+              
+                <div class="registration__form-group">
+                    <input type="text" class="registration__input" name="firstName" placeholder="Ваше имя*"
+                        autocomplete="off">
+                    <p class="errors"></p>
+                </div>
+                <div class="registration__form-group">
+                    <input type="text" class="registration__input" name="secondName" placeholder="Ваша фамилия*"
+                        autocomplete="off">
+                    <p class="errors"></p>
+                </div>
+                <div class="registration__form-group">
+                    <input id="reg-phone" type="tel" class="registration__input" name="phone"
+                        placeholder="Номер телефона*" autocomplete="off">
+                    <p class="errors"></p>
+                </div>
+                <div class="registration__form-group">
+                    <input type="text" class="registration__input" name="comment"
+                        placeholder="Комментарий*" autocomplete="off">
+                    <p class="errors"></p>
+                </div>
+                <div class="registration__form-group">
+                    <input id="calendar" type="text"
+                        class="registration__input registration__input--date datepicker-here" name="date"
+                        placeholder="Удобная дата*" autocomplete="off" data-mask="00.00.0000">
+                    <p class="errors"></p>
+                </div>
+
+                <button class="registration__btn btn" type="submit">
+                    <span>Записаться</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="footer__inner">
+            <div class="footer__top">
+                <div class="footer__logo">
+                    <a href="#top" class="footer__logo-link">
+                        <img src="icons/footer-logo.svg" alt="">
+                    </a>
+                </div>
+                <ul class="footer__contacts">
+                    <li class="footer__contacts-item">
+                        <div class="footer__contacts-img">
+                            <img src="icons/contact/location.svg" alt="">
+                        </div>
+                        <p class="footer__contacts-text"> <span>Адрес:</span> Краснодарский край, г. Новороссийск, пр-т
+                            Дзержинского,194,
+                            здание
+                            "Два капитана" </p>
+                    </li>
+                    <li class="footer__contacts-item">
+                        <div class="footer__contacts-img">
+                            <img src="icons/contact/time.svg" alt="">
+                        </div>
+                        <p class="footer__contacts-text"> <span>Время работы:</span> 8:00 - 20:00 Без выходых</p>
+                    </li>
+                    <li class="footer__contacts-item">
+                        <div class="footer__contacts-img">
+                            <img src="icons/contact/mail.svg" alt="">
+                        </div>
+                        <a href="mailto:Contact@emily.clinic" class="footer__contacts-link">
+                            <span class="footer__contacts-text footer__span">Почта:</span>
+                            Contact@emily.clinic
+                        </a>
+                    </li>
+                    <li class="footer__contacts-item">
+                        <div class="footer__contacts-img">
+                            <img src="icons/contact/phone.svg" alt="">
+                        </div>
+                        <a href="#" class="footer__contacts-link">
+                            <span class="footer__contacts-text footer__span">WhatsApp:</span>
+                            89189100700
+                        </a>
+                    </li>
+                    <li class="footer__contacts-phone show">
+                        <a href="tel:88617790790" class="footer__contacts-phonelink">8 (8617) 790-790</a>
+                    </li>
+                    <li class="footer__contacts-callback show">
+                        <a href="#callback" class="footer__contacts-callbacklink">Заказать звонок</a>
+                    </li>
+                </ul>
+                <div class="footer__social">
+                    <a class="footer__social-icon" href="https://vk.com/emilyclinic">
+                        <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.61627 0.718262C3.37242 0.718262 0.718353 3.37232 0.718353 6.61618V44.3629C0.718353 47.6067 3.37242 50.2608 6.61627 50.2608H44.3629C47.6068 50.2608 50.2609 47.6067 50.2609 44.3629V6.61618C50.2609 3.37232 47.6068 0.718262 44.3629 0.718262H6.61627ZM6.61627 3.07743H44.3629C46.3304 3.07743 47.9017 4.64867 47.9017 6.61618V44.3629C47.9017 46.3304 46.3304 47.9016 44.3629 47.9016H6.61627C4.64876 47.9016 3.07752 46.3304 3.07752 44.3629V6.61618C3.07752 4.64867 4.64876 3.07743 6.61627 3.07743ZM23.5981 14.864C22.3517 14.8617 21.239 14.9309 20.2437 15.4193L20.2414 15.4216C19.7553 15.6612 19.4143 15.963 19.1424 16.3247C19.0065 16.5044 18.866 16.668 18.7922 17.0781C18.7554 17.2831 18.7346 17.6172 18.9489 17.9766C19.1632 18.336 19.5963 18.541 19.8728 18.5779C20.064 18.6032 20.4994 18.7875 20.5386 18.8428C20.5386 18.8451 20.5409 18.8451 20.5409 18.8474C20.5409 18.8474 20.7091 19.2852 20.7574 19.6768C20.8058 20.0685 20.8035 20.3841 20.8035 20.3841C20.8035 20.4164 20.8035 20.4463 20.8058 20.4786C20.8058 20.4786 20.8749 21.5015 20.8289 22.559C20.8104 22.9806 20.7574 23.3561 20.6999 23.6902C20.2805 23.2271 19.6608 22.3862 18.7669 20.838C17.7762 19.1193 16.986 17.578 16.986 17.578C16.9445 17.4444 16.7971 17.0251 16.2257 16.6058C15.5991 16.145 14.9955 16.0759 14.9955 16.0759C14.9194 16.0598 14.8434 16.0528 14.7651 16.0528L10.1159 16.0552C10.1159 16.0552 9.83709 16.039 9.50302 16.0851C9.16896 16.1312 8.66672 16.168 8.1806 16.744L8.1783 16.7463C7.74517 17.2647 7.77051 17.8384 7.8235 18.1609C7.87649 18.4834 7.99399 18.7299 7.99399 18.7299C7.99629 18.7346 7.99859 18.7392 8.0009 18.7438C8.0009 18.7438 11.8046 26.7382 16.1013 31.4473C19.2231 34.8663 22.4255 34.9239 25.068 34.9239H27.0401C27.5447 34.9239 27.9985 34.9031 28.5031 34.6106C29.0076 34.318 29.3463 33.6015 29.3463 33.1061C29.3463 32.5854 29.4246 32.1777 29.5191 31.968C29.5859 31.8206 29.6389 31.7676 29.7218 31.7238C29.7402 31.7353 29.7287 31.7284 29.7771 31.763C29.9729 31.9012 30.2978 32.2168 30.6503 32.6085C31.3553 33.3941 32.1547 34.47 33.2306 35.2096C34.0001 35.7395 34.7281 35.9744 35.2811 36.0597C35.6266 36.1127 35.8962 36.1035 36.0874 36.0873L40.4924 36.1058C40.5178 36.1058 40.5454 36.1058 40.5708 36.1035C40.5708 36.1035 41.3287 36.1127 42.119 35.6404C42.5129 35.4054 42.9783 34.9561 43.1304 34.3041C43.2824 33.6521 43.0912 32.9748 42.7203 32.3574V32.3551C42.7848 32.461 42.6627 32.2422 42.536 32.0371C42.4093 31.8321 42.2272 31.5556 41.9646 31.2123C41.4393 30.5258 40.5984 29.5651 39.2391 28.3002H39.2368C38.5457 27.6575 38.0803 27.2036 37.889 26.9502C37.6978 26.6967 37.76 26.8304 37.7739 26.7659C37.7992 26.6368 38.6286 25.4411 40.315 23.1903C41.3403 21.8194 42.0591 20.7896 42.5337 19.9349C43.0083 19.0801 43.3492 18.3383 43.1119 17.4306C43.1119 17.4283 43.1096 17.4283 43.1096 17.426C43.0037 17.0274 42.7157 16.6611 42.4185 16.4606C42.1213 16.2602 41.8402 16.1819 41.5891 16.1335C41.0868 16.0367 40.6468 16.0528 40.239 16.0528C39.3843 16.0528 35.5921 16.0828 35.2788 16.0828C34.9101 16.0828 34.2996 16.251 34.0301 16.4123C33.3527 16.82 33.1569 17.3568 33.1569 17.3568C33.1454 17.3799 33.1339 17.4029 33.1223 17.426C33.1223 17.426 32.339 19.1608 31.3322 20.8749C30.3116 22.6143 29.5582 23.4414 29.1021 23.8261C29.0906 23.757 29.0906 23.8123 29.0836 23.7178C29.0422 23.2317 29.0883 22.5613 29.0883 21.907C29.0883 20.1445 29.238 18.9097 29.1574 17.8199C29.1182 17.2739 29.0168 16.7118 28.6574 16.1957C28.298 15.6796 27.7013 15.3433 27.1115 15.2004C26.7567 15.1152 26.3536 14.894 24.8929 14.8779H24.8906C24.4436 14.8733 24.0128 14.864 23.5981 14.864ZM24.8676 17.237C26.16 17.2509 25.8375 17.3223 26.5563 17.4951C26.7798 17.5481 26.7245 17.5481 26.7199 17.5412C26.7153 17.5342 26.7798 17.6563 26.8051 17.995C26.8558 18.6747 26.7291 20.0247 26.7291 21.907C26.7291 22.4208 26.6669 23.1534 26.7314 23.916C26.7959 24.6786 26.9848 25.66 27.8972 26.2498C28.3303 26.5309 28.8325 26.547 29.261 26.441C29.6896 26.335 30.0789 26.1116 30.489 25.7844C31.3069 25.1301 32.2192 24.0243 33.3665 22.0706C34.4378 20.2482 35.2189 18.5111 35.2442 18.4535C35.2488 18.4489 35.2534 18.4466 35.2603 18.442C35.2742 18.442 35.2603 18.442 35.2788 18.442C35.7188 18.442 39.4419 18.412 40.239 18.412C40.4256 18.412 40.4924 18.4235 40.6399 18.4281C40.6007 18.5618 40.6445 18.4765 40.4694 18.7922C40.1031 19.4534 39.4257 20.4371 38.4259 21.7757C36.7809 23.9713 35.7626 24.8306 35.4631 26.289C35.3133 27.017 35.5944 27.8256 36.0068 28.3717C36.4192 28.9177 36.9399 29.3854 37.631 30.0281C38.9097 31.2193 39.6607 32.0855 40.0916 32.6477C40.3058 32.9287 40.4417 33.1315 40.527 33.2697C40.6122 33.4079 40.5915 33.3918 40.6998 33.5738C40.7712 33.6936 40.7459 33.6199 40.7574 33.6567C40.6168 33.6959 40.444 33.7443 40.4348 33.7466L36.0966 33.7282C36.0183 33.7282 35.94 33.7351 35.8639 33.7512C35.8639 33.7512 35.8755 33.765 35.6428 33.7282C35.4101 33.6913 35.0415 33.5922 34.5669 33.2651C33.9932 32.8711 33.1915 31.9081 32.4058 31.0326C32.0119 30.5949 31.6202 30.1756 31.1341 29.8323C30.648 29.489 29.9176 29.1688 29.132 29.4153C28.3165 29.671 27.6806 30.3092 27.3696 30.9935C27.1392 31.5026 27.1207 32.0348 27.0839 32.5647C27.0447 32.567 27.0908 32.5647 27.0401 32.5647H25.068C22.3886 32.5647 20.4856 32.749 17.843 29.8554C14.2882 25.9618 11.0305 19.481 10.5006 18.4143L14.5923 18.412C14.6637 18.4397 14.8181 18.4973 14.8273 18.5042C14.8296 18.5065 14.8296 18.5065 14.8319 18.5088C14.6821 18.4005 14.8388 18.5526 14.8388 18.5526C14.8526 18.5871 14.8687 18.6217 14.8872 18.6562C14.8872 18.6562 15.6981 20.2413 16.7234 22.0176C17.7302 23.7593 18.4628 24.849 19.1701 25.5678C19.5249 25.9273 19.882 26.2152 20.3589 26.3788C20.8358 26.5424 21.4532 26.4825 21.8679 26.2544C22.7157 25.7913 22.8286 25.1071 22.9669 24.5081C23.1051 23.9091 23.1604 23.2709 23.1857 22.6604C23.2364 21.4762 23.165 20.4486 23.1604 20.3864C23.1604 20.3634 23.165 19.9372 23.0982 19.3889C23.0291 18.829 22.9507 18.1425 22.4439 17.4513L22.4416 17.449C22.437 17.4444 22.4347 17.4444 22.4301 17.4398C23.1005 17.343 23.6742 17.2255 24.8676 17.237ZM35.2742 18.3936L35.258 18.4304C35.2557 18.4327 35.2557 18.4281 35.2534 18.4304C35.258 18.4212 35.2742 18.3936 35.2742 18.3936Z"
+                                fill="#313131" />
+                        </svg>
+                    </a>
+                    <a class="footer__social-icon" href="https://instagram.com/emily_clinic_?igshid=5xq864ldjqei">
+                        <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.8733 0.538574C7.41812 0.538574 0.538757 7.41794 0.538757 15.8732V37.1057C0.538757 45.5609 7.41812 52.4402 15.8733 52.4402H37.1058C45.5611 52.4402 52.4404 45.5609 52.4404 37.1057V15.8732C52.4404 7.41794 45.5611 0.538574 37.1058 0.538574H15.8733ZM15.8733 2.89774H37.1058C44.2847 2.89774 50.0813 8.69429 50.0813 15.8732V37.1057C50.0813 44.2845 44.2847 50.0811 37.1058 50.0811H15.8733C8.69447 50.0811 2.89792 44.2845 2.89792 37.1057V15.8732C2.89792 8.69429 8.69447 2.89774 15.8733 2.89774ZM40.6446 9.97524C39.3406 9.97524 38.2854 11.0304 38.2854 12.3344C38.2854 13.6384 39.3406 14.6936 40.6446 14.6936C41.9486 14.6936 43.0038 13.6384 43.0038 12.3344C43.0038 11.0304 41.9486 9.97524 40.6446 9.97524ZM26.4896 13.514C19.3384 13.514 13.5142 19.3382 13.5142 26.4894C13.5142 33.6406 19.3384 39.4648 26.4896 39.4648C33.6408 39.4648 39.465 33.6406 39.465 26.4894C39.465 19.3382 33.6408 13.514 26.4896 13.514ZM26.4896 15.8732C32.3668 15.8732 37.1058 20.6122 37.1058 26.4894C37.1058 32.3666 32.3668 37.1057 26.4896 37.1057C20.6124 37.1057 15.8733 32.3666 15.8733 26.4894C15.8733 20.6122 20.6124 15.8732 26.4896 15.8732Z"
+                                fill="#313131" />
+                        </svg>
+                    </a>
+                </div>
+                <ul class="footer__contacts footer__contacts--hidden">
+                    <li class="footer__contacts-phone">
+                        <a href="tel:88617790790" class="footer__contacts-phonelink">8 (8617) 790-790</a>
+                    </li>
+                    <li class="footer__contacts-callback">
+                        <a href="#callback" class="footer__contacts-callbacklink">Заказать звонок</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__copy">
+                <p class="footer__copy-text">Copyright ©  Emily Clinic</p>
+            </div>
+            <div class="footer__design">
+                <a href="behance.net/brusnikdas87ef" class="footer__design-link" target="_blank">Site Design by Brusnik Daria</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup callBack -->
+
+    <div id="callback" class="popup-callback mfp-hide">
+        <a href="#" class="popup-callback__close">
+            <img src="icons/close.svg" alt="">
+        </a>
+        <div class="popup-callback__title">
+            <p class="popup-callback__text">Заказать
+                обратный звонок</p>
+        </div>
+        <form class="popup-callback__form">
+            <div class="popup-callback__form-group">
+                <input name="name" id="name" class="popup-callback__input" type="text" placeholder="Ваше имя*">
+                <p class="popup-callback__error-message"></p>
+            </div>
+            <div class="popup-callback__form-group">
+                <input name = "phone" id="phone" class="popup-callback__input" type="tel" placeholder="Ваш номер*">
+                <p class="popup-callback__error-message"></p>
+            </div>
+            <textarea name="comment" class="popup-callback__comment" placeholder="Комментарий"></textarea>
+            <button class="popup-callback__btn btn" type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <div class="scroll-top">
+        <a class="scroll-top__btn scroll-top__link"></a>
+        <a class="scroll-top__text scroll-top__link">наверх</a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- jQuery -->
+    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
