@@ -152,6 +152,7 @@ $(function () {
 
     $("form").submit(function(e) {
         e.preventDefault();
+        alert("hello");
         $.ajax({
             type: "POST",
             url: "mailer/smart.php",
